@@ -1,6 +1,7 @@
 /*跳转到上个页面*/
 function but() {
 	window.location.href = "matching.html";
+	return true;
 };
 /*取出上一个页面数据*/
 if(!window.localStorage) {
@@ -32,9 +33,6 @@ var flag = true;
 var goFlag = false;
 
 btn.onclick = function() {
-	/*圆圈数量*/
-	one.value = i;
-	two.value = i;
 	/*改变按钮value*/
 	function tion() {
 		if(flag) {
@@ -43,7 +41,7 @@ btn.onclick = function() {
 			role.innerHTML = roles[i - 1];
 			/*玩家数量与词组一致，词组与身份相同*/
 			if(roles[i - 1] == '杀手') {
-            
+
 				phrase.innerHTML = spi;
 
 			} else {
@@ -57,7 +55,7 @@ btn.onclick = function() {
 
 		if(i == roles.length + 1) {
 			btn.value = '法官日记';
-			goFlag=true;
+			goFlag = true;
 		}
 		/*隐藏上一个页面，出现下一个页面*/
 		flag = !flag;
@@ -69,11 +67,15 @@ btn.onclick = function() {
 			main.style.display = "none";
 		};
 	};
-    /*如果以上条件正确，则跳转至下一页*/
+	/*如果以上条件正确，则跳转至下一页*/
 	if(goFlag) {
 		window.location.href = "gownsman .html";
+		return true;
 	} else {
 		/*执行以上函数*/
+	    /*圆圈数量*/
+		one.value = i;
+		two.value = i;
 		tion();
 	};
 };

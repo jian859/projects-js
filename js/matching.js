@@ -65,7 +65,6 @@ var numb = quantity_input.value;
 //给数字输入框 添加一个onchange事件
 function test() {
 	numb = quantity_input.value;
-	alert(numb);
 	if(numb >= 4 && numb <= 5) {
 		ghost.value = 1;
 		people.value = numb - 1;
@@ -99,7 +98,7 @@ function test() {
 	}
 };
 test();
-quantity_input.oninput=test;
+quantity_input.onchange=test;
 /*声明发牌*/
 var laun = document.getElementById('button');
 /*词组限制*/
