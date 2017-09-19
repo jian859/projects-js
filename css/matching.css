@@ -1,0 +1,206 @@
+* {
+	font-size: 10px;
+}
+
+.wrap {
+	background-color: #f0f0f0;
+}
+
+
+/*头部*/
+
+.wrap .header {
+	background-color: #29bde0;
+}
+
+.wrap .header .back {
+	padding: 5% 0% 0.9% 1.7%;
+}
+
+
+/*内容*/
+
+.wrap .content {
+	width: 95%;
+}
+
+
+/*标题*/
+
+.wrap .content .title {
+	margin-top: 2%;
+	background-color: #fff;
+}
+
+.wrap .content .title .title-text {
+	font-size: 3.6rem;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+
+/*玩家配比*/
+
+.wrap .content .matching {
+	background-color: #fff;
+	padding-bottom: 45.4%;
+	margin-bottom: 2%;
+}
+
+.wrap .content .matching .matching-img1 {
+	padding-left: 4%;
+	padding-top: 5%;
+}
+
+.wrap .content .matching .matching-img2 {
+	padding-right: 4%;
+	padding-top: 5%;
+}
+
+.wrap .content .matching .matching-img1 .matching-img1-text {
+	font-size: 2.6rem;
+}
+
+.wrap .content .matching .matching-img2 .matching-img2-text {
+	font-size: 2.6rem;
+}
+
+#num1,
+#num2 {
+	width: 4rem;
+	outline: none;
+	border: none;
+	text-align: center;
+}
+
+.wrap .content .matching .matching-img1 .spirit {
+	width: 5rem;
+	height: 5rem;
+}
+
+.wrap .content .matching .matching-img2 .people {
+	width: 5rem;
+	height: 5rem;
+}
+
+
+/*词组*/
+
+.wrap .content .phrase {
+	background-color: #fff;
+	padding-left: 2.7%;
+	padding-right: 2.7%;
+	padding-bottom: 3.4%;
+	margin-bottom: 2%;
+}
+
+.wrap .content .phrase .underline {
+	border-bottom: solid 0.2rem #d7d7d7;
+}
+
+.wrap .content .phrase .underline .phrase-text {
+	font-size: 2.8rem;
+	color: #d7d7d7;
+}
+
+.wrap .content .phrase .underline #people-text {
+	border: none;
+	width: 80%;
+	font-size: 1.4rem;
+	color: #fab344;
+	padding-top: 2.8%;
+	padding-bottom: 2.4%;
+	margin-left: 3%;
+	outline: none;
+}
+
+.wrap .content .phrase .underline #spirit-text {
+	border: none;
+	width: 80%;
+	font-size: 1.4rem;
+	color: #fab344;
+	padding-top: 2.8%;
+	padding-bottom: 2.4%;
+	margin-left: 3%;
+	outline: none;
+}
+
+
+/*玩家数量*/
+
+.wrap .content .quantity {
+	background-color: #fff;
+	padding-left: 2.7rem;
+	padding-top: 3.4rem;
+	padding-bottom: 3.4rem;
+	margin-bottom: 2%;
+}
+
+.wrap .content .quantity .quantity-text1 {
+	font-size: 2.8rem;
+}
+
+.wrap .content .quantity .quantity-text2 {
+	font-size: 1.4rem;
+	color: #fab344;
+}
+
+#quantity-input::-webkit-outer-spin-button,
+#quantity-input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+#quantity-input[type="number"] {
+	-moz-appearance: textfield;
+}
+#num1::-webkit-outer-spin-button,
+#num1::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+#num1[type="number"] {
+	-moz-appearance: textfield;
+}
+#num2::-webkit-outer-spin-button,
+#num2::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+#num2[type="number"] {
+	-moz-appearance: textfield;
+}
+.wrap .content .quantity #quantity-input {
+	border: none;
+	text-align: center;
+	background-color: #d7d7d7;
+	width: 5rem;
+	height: 4rem;
+	outline: none;
+	font-size: 3.4rem;
+	color: #fab344;
+	padding: 0.5% 0.4%;
+}
+
+
+/*按钮*/
+
+.wrap .content #button {
+	border: none;
+	width: 100%;
+	background-color: #fab344;
+	color: #fff;
+	font-size: 4rem;
+	padding-top: 2.5%;
+	padding-bottom: 2%;
+	margin-bottom: 10%;
+}
+@media (max-width: 768px) {
+	.wrap .content .phrase .underline #people-text {
+	width: 60%;
+}
+
+.wrap .content .phrase .underline #spirit-text {
+	width: 60%;
+}
+}

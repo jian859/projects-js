@@ -1,0 +1,78 @@
+.wrap{
+	background-color: #29bde0;
+}
+/*头部*/
+.wrap .header{
+	padding-top: 5%;
+	padding-bottom: 1.6%;
+	text-align: center;
+	border: solid 0.1rem #fff;
+}
+.wrap .header .status{
+	font-size: 3.4rem;
+	color: #fff;
+}
+.wrap .header .back{
+	padding-left: 2%;
+}
+.wrap .header .close{
+	padding-right: 2%;
+	cursor: pointer;
+}
+/*内容*/
+.wrap .content{
+	margin-bottom: 12%;
+}
+.wrap .content .main .circle{
+	width: 5rem;
+	height: 5rem;
+	color: #f56b81;
+	font-size: 4rem;
+	background-color:#fff ;
+	border: solid 0.4rem #ffedc5;
+	border-radius: 5rem;
+	line-height: 4rem;
+	position: relative;
+	top: -3rem;
+	left: 45%;
+}
+.wrap .content .main{
+	width: 45%;
+	background-color: #ffedc5;
+	border: solid 0.4rem #fff;
+	margin-top: 5%;
+	
+}
+.wrap .content .draw{
+	max-width: 100%;
+	margin-top: 18%;
+	margin-bottom:5% ;
+	
+}
+.wrap .content .spirit-text{
+	color: #29bde0;
+	font-size: 4rem;
+}
+.wrap .content .phrase{
+	color: #f56b81;
+	font-size: 4rem;
+}
+.wrap .content .placeholder{
+	width: 64%;
+	padding-bottom: 20%;
+}
+.wrap .content .placeholder .placwhol{
+	color: #fca000;
+	font-size: 2.6rem;
+}
+/*尾部*/
+.wrap .footer{
+	padding-bottom:6% ;
+} 
+.wrap .footer .button{
+	border: none;
+	font-size: 4rem;
+	background-color: #fbb435;
+    color: #fff;
+    padding: 1.9% 11% 1.9% 11%;
+}

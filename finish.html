@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>游戏结束</title>
+		<link rel="stylesheet" type="text/css" href="css/finish.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="header">
+				<img src="img/bar-home.png" class="menu pull-left" onclick="but()" />
+				<span class="title">法官台本</span>
+				<img src="img/headerbar-doubt.png" class="cancel pull-right" onclick="but()" />
+			</div>
+			<div class="content">
+				<div class="finish">
+					<p id="test">
+						卧底胜利
+					</p>
+					<img src="img/victory1.png" />
+				</div>
+				<div class="probability">
+					<p class="probability-text">太棒了!你知道么？在捉鬼游戏中 只有20%的卧底取得游戏最终的 胜利哦！</p>
+				</div>
+				<p class="time-text">剩余玩家</p>
+				<div class="time">
+					杀 手  <input type="text" name="" id="num1" value="0" /> 人
+					<span id="role_text">平民  <input type="text" name="" id="num2" value="2" /> 人</span>
+				</div>
+				<div class="first_day">
+					<span class="first_day_text">第一天</span>
+					<span class="first_day_time">0小时07分</span>
+					<p >晚上：5号被杀手杀死，5号是水民</p>
+					<p>白天：8号被全民投票投死，8号是杀手</p>
+				</div>
+				<div class="the_next_day">
+
+				</div>
+			</div>
+
+			<div class="fastener">
+				<input type="button" name="" class="but" value="结束游戏" />
+				<input type="button" name="" class="button" value="法官日记" />
+			</div>
+		</div>
+	</body>
+
+</html>

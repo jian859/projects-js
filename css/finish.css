@@ -1,0 +1,130 @@
+* {
+	font-size: 10PX;
+}
+
+.wrap {
+	background-color: #29bde0;
+}
+
+
+/*头部*/
+
+.wrap .header {
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+	background-color: #29bde0;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 1.9rem;
+	border-bottom: solid 0.1rem #74d4eb;
+}
+
+.wrap .header .title {
+	color: #fff;
+	font-size: 3.4rem;
+}
+
+.wrap .header .menu {
+	margin-left: 1.2rem;
+}
+
+.wrap .header .cancel {
+	margin-right: 1.2rem;
+}
+/*内容*/
+.wrap .content{
+	width: 62%;
+	padding-top: 11.8rem;
+	margin-bottom: 30rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wrap .content .finish{
+	text-align: center;
+}
+.wrap .content .probability .probability-text{
+	font-size: 3.3rem;
+	color: #ffc865;
+}
+.wrap .content .finish #test{
+	font-size: 4.807rem;
+	color: #fff;
+}
+.wrap .content .time{
+	color: #fff;
+	font-size: 2.6rem;
+}
+.wrap .content .time #num1{
+	width: 2rem;
+	background-color: #29bde0;
+	border: none;
+	outline: none;
+}
+.wrap .content .time #num2{
+	width: 2rem;
+	background-color: #29bde0;
+	border: none;
+	outline: none;
+}
+.wrap .content .time-text{
+	color: #fff;
+	font-size: 2.6rem;
+}
+.wrap .content .time #role_text{
+	color: #fff;
+	font-size: 2.6rem;
+	margin-right: 4.5rem;
+}
+.wrap .content .time #role_text #role_num{
+	color: #fff;
+	font-size: 2.6rem;
+}
+.wrap .content .first_day{
+	background: #fff;
+	clear:both
+}
+.wrap .content .first_day .first_day_text{
+	font-size: 3rem;
+	float: left;
+}
+.wrap .content .first_day .first_day_time{
+	font-size: 2rem;
+	float:right;
+	color: #c7c7c7;
+}
+/*按钮*/
+
+.wrap .fastener {
+	position: fixed;
+	z-index: 9999;
+	bottom: 0;
+	width: 100%;
+	background-color: #29bde0;
+	text-align: center;
+}
+
+.wrap .fastener .button {
+	background-color: #fbb435;
+	color: #fff;
+	font-size: 4rem;
+	border: none;
+	width: 40%;
+	border-radius: 0.5rem;
+		padding: 2.8rem 0;
+	margin-left: 4.8rem;
+	margin-top: 4.4rem;
+	margin-bottom: 6rem;
+}
+.wrap .fastener .but {
+	background-color: #f66f6f;
+	color: #fff;
+	font-size: 4rem;
+	width: 40%;
+	border: none;
+	padding: 2.8rem 0;
+	border-radius: 0.5rem;
+	margin-top: 4.4rem;
+	margin-bottom: 6rem;
+}

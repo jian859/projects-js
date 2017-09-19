@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>翻牌</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/draw.css" />
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="header ">
+				<img src="img/back.png" class="pull-left back" onclick="but()" />
+				<span class="status">
+					查看身份
+				</span>
+				<img src="img/close.png" class="close pull-right" onclick="closes()" />
+			</div>
+			<div class="content">
+				<div class="tion"><input type="button"  id="one" value="1" class="circle text-center"/></div>
+				<div class="main center-block text-center" id="main">
+					
+					<img src="img/spirit-card-behind.png" class="draw img-circle " />
+				</div>
+				
+				<div class="mains center-block " id="mains">
+					<div class="tions"><input type="button"  id="two" value="1" class="circl text-center"/></div>
+					<div class="text-center">
+						<img src="img/spirit-card-front.png" class="draws img-circle " />
+					</div>
+					<div class="spirit-text text-center">角色:
+						<span id="role">
+						
+					</span>
+					</div>
+					<div class="phrase text-center">词组:
+						<span id="phrase-text">
+						
+					</span>
+					</div>
+					<div class="placeholder center-block">
+						<p class="placwhol">想办法猜到人的词，同时还要注意不要暴露自己哦！</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="footer text-center">
+				<input type="button" class="button" value="查看1号身份" id="btn" placeholder=""/>
+			</div>
+		</div>
+		<script src="js/draw.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

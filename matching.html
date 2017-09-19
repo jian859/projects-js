@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>玩家配比</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/matching.css" />
+	</head>
+<style type="text/css">
+	
+</style>
+	<body>
+		<div class="wrap">
+			<div class="header">
+				<img src="img/back.png" class="back" onclick="but()" />
+			</div>
+			<div class="content center-block">
+				<div class="title">
+					<p class="title-text">玩家配比</p>
+				</div>
+				<div class="matching">
+					<div class="matching-img1 pull-left">
+						<img src="img/werewolf-spirit.png" class="spirit" />
+						<span class="matching-img1-text">幽灵
+						<input type="number" id="num1" value="" max="5";min="2"; />人
+						</span>
+					</div>
+					<div class="matching-img2 pull-right">
+						<img src="img/werewolf-people.png" class="people" />
+						<span class="matching-img2-text">水民
+							<input type="number" id="num2" value="" max="13";min="3"; />人
+						</span>
+					</div>
+				</div>
+				<div class="phrase">
+
+					<p class="underline">
+						<span class="phrase-text">水民词组</span>
+						<input type="text" id="people-text" value="" placeholder="限输入10个字内" maxlength="10" />
+					</p>
+
+					<p class="underline">
+						<span class="phrase-text">幽灵词组</span>
+						<input type="text" id="spirit-text" value="" placeholder="限输入10个字内" maxlength="10" />
+					</p>
+				</div>
+				<div class="quantity">
+					<span class="quantity-text1">请输入玩家数量</span>
+					<input type="number" id="quantity-input" value="8" placeholder="" max="18";min="4"; oninput='if(value.length>2)value=value.slice(0,1)'/>
+					<span class="quantity-text2">玩家数量为4-18</span>
+				</div>
+				<input type="button" id="button" value="去发牌" onclick="launch()" />
+
+			</div>
+		</div>
+		<script src="js/matching.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

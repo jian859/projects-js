@@ -1,0 +1,190 @@
+.wrap{
+	background-color: #29bde0;
+}
+/*头部*/
+.wrap .header{
+	padding-top: 5%;
+	padding-bottom: 1.6%;
+	text-align: center;
+	border: solid 0.1rem #fff;
+}
+.wrap .header .status{
+	font-size: 3.4rem;
+	color: #fff;
+}
+.wrap .header .back{
+	padding-left: 2%;
+}
+.wrap .header .close{
+	padding-right: 2%;
+	cursor: pointer;
+}
+/*内容*/
+.wrap .content{
+	margin-bottom: 12%;
+}
+.wrap .content .circle{
+	    width: 7rem;
+    line-height: 7rem;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    outline-style: none;
+    color: red;
+     background: #FFF;
+    font-size: 3.5rem;
+}
+.wrap .content .circl{
+    width: 7rem;
+    line-height: 7rem;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    outline-style: none;
+    color: red;
+     background: #FFF;
+    font-size: 3.5rem;
+    display:none;
+}
+.wrap .content .tion{
+	  width: 8rem;
+    height: 8rem;
+    line-height: 8rem;
+    background: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 4rem;
+    border: 0.2rem solid #ffedc5;
+}
+
+.wrap .content .tions{
+	  width: 8rem;
+    height: 8rem;
+    line-height: 8rem;
+    background: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 4rem;
+    border: 0.2rem solid #ffedc5;
+    display:none;
+}
+.wrap .content .main{
+	width: 70%;
+	height: 80%;
+	background-color: #ffedc5;
+	border: solid 0.4rem #fff;
+	
+}
+.wrap .content .mains{
+	width: 70%;
+	height: 80%;
+	background-color: #ffedc5;
+	border: solid 0.4rem #fff;
+   display:none;
+}
+
+
+.wrap .content .draw{
+	max-width: 100%;
+	margin-top: 41%;
+	margin-bottom:41% ;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.wrap .content .draws{
+	max-width: 100%;
+	margin-top: 18%;
+	margin-bottom:17.2% ;
+	
+}
+.wrap .content .spirit-text{
+	color: #29bde0;
+	font-size: 4rem;
+}
+.wrap .content .phrase{
+	color: #f56b81;
+	font-size: 4rem;
+	border-bottom: solid 0.2rem #fff;
+	padding-bottom: 4%;
+}
+.wrap .content .placeholder{
+	width: 64%;
+	padding-bottom: 20%;
+	padding-top: 5%;
+}
+.wrap .content .placeholder .placwhol{
+	color: #fca000;
+	font-size: 2.6rem;
+}
+/*尾部*/
+.wrap .footer{
+	padding-bottom:6% ;
+} 
+.wrap .footer .button{
+	border: none;
+	background-color: #fbb435;
+    color: #fff;
+    font-size: 4rem;
+    padding: 1.9% 0;
+    width: 75%;
+}
+@media (max-width: 768px) {
+.wrap .content .spirit-text{
+	font-size: 3rem;
+}
+.wrap .content .phrase{
+	font-size: 3rem;
+	border-bottom: solid 0.1rem #fff;
+	padding-bottom: 4%;
+}
+.wrap .content .placeholder{
+	width: 64%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+.wrap .content .placeholder .placwhol{
+	font-size: 1.6rem;
+}
+.wrap .footer .button{
+    width: 75%;
+}
+.wrap .content .circle{
+	    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+}
+.wrap .content .circl{
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+}
+.wrap .content .tion{
+	  width: 7rem;
+    height: 7rem;
+    line-height: 7rem;
+}
+
+.wrap .content .tions{
+	  width: 7rem;
+    height: 7rem;
+    line-height: 7rem;
+}
+.wrap .content .draw{
+	max-width: 100%;
+	margin-top: 28%;
+	margin-bottom:29% ;
+	
+}
+.wrap .content .draws{
+	max-width: 100%;
+	margin-top: 18%;
+	margin-bottom:9% ;
+	
+}
+	}

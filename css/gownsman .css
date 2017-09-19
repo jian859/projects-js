@@ -1,0 +1,111 @@
+* {
+	font-size: 10PX;
+}
+
+.wrap {
+	background-color: #29bde0;
+}
+
+
+/*头部*/
+
+.wrap .header {
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+	background-color: #29bde0;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 1.9rem;
+	border-bottom: solid 0.1rem #74d4eb;
+}
+
+.wrap .header .title {
+	color: #fff;
+	font-size: 3.4rem;
+}
+
+.wrap .header .menu {
+	margin-left: 1.2rem;
+}
+
+.wrap .header .cancel {
+	margin-right: 1.2rem;
+}
+
+
+/*内容*/
+
+.wrap .content {
+	padding-top: 11.8rem;
+	padding-bottom: 11.8rem;
+	background-color: #29bde0;
+}
+
+.wrap .content .main {
+	width: 80%;
+	vertical-align: middle;
+}
+
+.wrap .content .main p {
+	margin: 0 0 0px;
+}
+
+
+/*.wrap .content .main .vote{
+	height: 7.5rem;
+}*/
+
+.wrap .content .main .rowss{
+	margin-top: 6.4rem;
+	width: 33%;
+	float: left;
+}
+.wrap .content .main #rows{
+	margin-bottom: 100rem;
+	
+}
+
+.wrap .content .main .mizutami {
+	border: solid 4px #fff;
+	width: 70%;
+	display: inline-block;
+	
+}
+
+.wrap .content .main .mizutami .test {
+	background-color: #f5c97b;
+	font-size: 3rem;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	color: #565656;
+}
+
+.wrap .content .main .mizutami .num {
+	background-color: #83b09a;
+	font-size: 2.276rem;
+	color: #fff;
+}
+
+
+/*按钮*/
+
+.wrap .fastener {
+	position: fixed;
+	z-index: 9999;
+	bottom: 0;
+	width: 100%;
+	background-color: #29bde0;
+	text-align: center;
+}
+
+.wrap .fastener .button {
+	background-color: #fbb435;
+	color: #fff;
+	font-size: 4rem;
+	border: none;
+	padding: 2.6% 20% 2.6% 20%;
+	margin-top: 4.4rem;
+	margin-bottom: 6rem;
+}

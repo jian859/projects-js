@@ -1,0 +1,83 @@
+{
+	"index.html": {
+		"resources": [
+			"gam.html",
+			"nine-sky.html"
+		],
+		"refer": [
+			"gam.html",
+			"nine-sky.html"
+		]
+	},
+	"gam.html": {
+		"resources": [
+			"css/game.css",
+			"css/bootstrap.css",
+			"js/game.js",
+			"img/left.png",
+			"matching.html",
+			"img/right.png"
+		],
+		"refer": [
+			"matching.html"
+		]
+	},
+	"nine-sky.html": {
+		"resources": [
+			"nine-sky.js"
+		]
+	},
+	"matching.html": {
+		"resources": [
+			"img/back.png",
+			"css/bootstrap.css",
+			"css/matching.css",
+			"js/matching.js",
+			"img/werewolf-spirit.png",
+			"img/werewolf-people.png",
+			"draw.html"
+		],
+		"refer": [
+			"draw.html"
+		]
+	},
+	"draw.html": {
+		"resources": [
+			"css/bootstrap.css",
+			"img/close.png",
+			"js/draw.js",
+			"img/spirit-card-front.png",
+			"img/spirit-card-behind.png",
+			"css/draw.css",
+			"gownsman .html",
+			"matching.html"
+		],
+		"refer": [
+			"gownsman .html",
+			"matching.html"
+		]
+	},
+	"gownsman .html": {
+		"resources": [
+			"css/bootstrap.css",
+			"css/gownsman .css",
+			"js/gownsman .js",
+			"draw.html",
+			"gownsman-books.html"
+		],
+		"refer": [
+			"draw.html",
+			"gownsman-books.html"
+		]
+	},
+	"gownsman-books.html": {
+		"resources": [
+			"css/gownsman-books.css",
+			"img/nighttime.png",
+			"js/gownsman-books.js",
+			"img/daytime.png",
+			"img/top_img.png",
+			"css/bootstrap.css"
+		]
+	}
+}

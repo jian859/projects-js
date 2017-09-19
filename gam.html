@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>桌游精灵</title>
+		<link rel="stylesheet" type="text/css" href="css/game.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="header"></div>
+			<div class="container main">
+				<div class="nav text-center">
+					<span class="title text-center">上次游戏：捉鬼猜词版</span>
+				</div>
+				<div class="content">
+					<div class="content-title text-center">捉鬼游戏</div>
+					<div class="page-turning">
+						<div class="text-center center-block" >
+					        <input type="button" class="simplify" value="简化版" onclick="bn()"/>
+						</div>
+						<div class="prompt text-center">有1133个用户正在玩此款游戏</div>
+						<div class="sim text-center center-block">
+							<img src="img/left.png" class="carousel-controlx img-responsive"  alt="Responsive image" onclick="img()"/>
+					        <img src="img/right.png" class="carousel-controls img-responsive" alt="Responsive image" onclick="img()"/>
+						   <input type="button" class="guess" value="猜词版" />
+						</div>
+						<div class="prompt text-center">有1133个用户正在玩此款游戏</div>
+						<div class="  text-center center-block">
+						   <input type="button" class="idiocy" value="杀人版" />
+						</div>
+						<div class="prompt text-center">有1133个用户正在玩此款游戏</div>
+						
+					</div>
+					
+					<!-- 轮播（Carousel）指标 -->
+					<ol class="carousel-indicatorx type=value1">
+						<li data-target="#myCarousel" data-slide-to="0" class="active one badge">1</li>
+						<li data-target="#myCarousel" data-slide-to="1" class="two badge">2</li>
+					</ol>
+
+				</div>
+			</div>
+		</div>
+		<script src="js/game.js" type="text/javascript" charset="utf-8">
+		</script>
+	</body>
+
+</html>

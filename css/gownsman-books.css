@@ -1,0 +1,162 @@
+* {
+	font-size: 10PX;
+}
+
+.wrap {
+	background-color: #f0f0f0;
+}
+
+
+/*头部*/
+
+.wrap .header {
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+	background-color: #29bde0;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 1.9rem;
+	border-bottom: solid 0.1rem #74d4eb;
+}
+
+.wrap .header .title {
+	color: #fff;
+	font-size: 3.4rem;
+}
+
+.wrap .header .menu {
+	margin-left: 1.2rem;
+}
+
+.wrap .header .cancel {
+	margin-right: 1.2rem;
+}
+
+
+/*内容*/
+
+.wrap .content {
+	padding-top: 11.8rem;
+	padding-bottom: 11.8rem;
+	width: 95%;
+	margin-bottom: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*第一天*/
+
+.wrap .content .first_day {
+	color: #29bde0;
+	font-size: 3rem;
+	background: #fff;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin: 3.5rem -1.5rem 0 -1.5rem;
+	border: solid 0.2rem #c9c9c9;
+}
+
+
+
+.wrap .content .mains {
+	background-color: #fff;
+	margin: 0 -15px;
+	border: solid 0.2rem #c9c9c9;
+}
+
+
+
+/*三角*/
+.wrap .content .triangle_three {
+	width: 1.5rem;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid #29bde0;
+	position: relative;
+	top: 4rem;
+	left: 1.5rem;
+}
+
+.wrap .content .info {
+	margin-left: 3rem;
+	margin-top: 2rem;
+}
+
+.wrap .content .act {
+	padding-left: 7rem;
+	width: 100%;
+}
+
+#btn{
+	width: 95%;
+	margin-left: 3rem;
+	height: 5.2rem;
+	font-size: 3rem;
+	color: #FFFFFF;
+	background: #29bde0;
+	border: none;
+	outline-style: none;
+}
+
+.wrap .content .marry1 {
+	width: 0.2rem;
+	height: 5rem;
+	background: #AAAAAA;
+	margin-left: 3rem;
+}
+
+.wrap .content .marry2 {
+	width: 0.2rem;
+	height: 20rem;
+	background: #AAAAAA;
+	margin-left: 3rem;
+}
+
+.wrap .content .picture {
+	float: left;
+	margin-top: 2rem;
+	margin-left: 1rem;
+}
+
+
+
+
+
+
+/*按钮*/
+
+.wrap .fastener {
+	position: fixed;
+	z-index: 9999;
+	bottom: 0;
+	width: 100%;
+	background-color: #29bde0;
+	text-align: center;
+}
+
+.wrap .fastener .button {
+	background-color: #fbb435;
+	color: #fff;
+	font-size: 4rem;
+	border: none;
+	width: 40%;
+	border-radius: 0.5rem;
+		padding: 2.8rem 0;
+	margin-left: 4.8rem;
+	margin-top: 4.4rem;
+	margin-bottom: 6rem;
+}
+.wrap .fastener .but {
+	background-color: #f66f6f;
+	color: #fff;
+	font-size: 4rem;
+	width: 40%;
+	border: none;
+	padding: 2.8rem 0;
+	border-radius: 0.5rem;
+	margin-top: 4.4rem;
+	margin-bottom: 6rem;
+}
